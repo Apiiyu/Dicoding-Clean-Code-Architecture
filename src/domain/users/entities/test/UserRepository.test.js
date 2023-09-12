@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const UserRepository = require("../UserRepository");
+const UserRepository = require("../../UserRepository");
 
 describe("UserRepository interface", () => {
   it("should throw error when invoke abstract behavior", async () => {
