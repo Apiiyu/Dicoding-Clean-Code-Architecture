@@ -13,7 +13,7 @@ const BcryptPasswordHash = require("./security/BcryptPasswordHash");
 
 // use case
 const AddUserUseCase = require("../app/usecase/AddUserUsecase");
-const UserRepository = require("../domains/users/UserRepository");
+const UserRepository = require("../domain/users/UserRepository");
 const PasswordHash = require("../app/security/PasswordHash");
 
 // creating container
